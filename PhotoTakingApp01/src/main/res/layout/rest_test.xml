@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/urlEditText"
+        android:hint="@string/urlEditText"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listEditText"
+            android:hint="@string/listEditTextHint" />
+    </LinearLayout>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerChoices"
+        android:id="@+id/spinnerChoices" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerChoices"
+        android:id="@+id/spinnerChoices" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerChoices"
+        android:id="@+id/spinnerChoices" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerChoices"
+        android:id="@+id/spinnerChoices" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button"
+            android:id="@+id/button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addButton"
+            android:id="@+id/addButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login!"
+            android:id="@+id/loginButton" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkButton"
+            android:id="@+id/checkButton" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/resultTextView"
+        android:id="@+id/resultTextView"
+        android:layout_weight="1" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deletedCheckBox"
+        android:id="@+id/deletedCheckBox" />
+
+
+</LinearLayout></ScrollView>

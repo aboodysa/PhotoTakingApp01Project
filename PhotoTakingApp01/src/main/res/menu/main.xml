@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_get_picture"
+        android:title="Take Picture"
+    />
+    <item android:id="@+id/action_take_high_quality_picture"
+        android:title="Take High Quality Picture"
+        />
+    <item android:id="@+id/rest_test"
+        android:title="@string/action_settings" />
+    <item android:id="@+id/employeeList"
+        android:title="@string/employeeList" />
+    <item android:id="@+id/taskList"
+        android:title="@string/taskList" />
+</menu>

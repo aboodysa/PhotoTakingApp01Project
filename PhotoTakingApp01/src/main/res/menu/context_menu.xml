@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/openEntity"
+    android:title="@string/open" />
+<item android:id="@+id/deleteEntity"
+    android:title="@string/remove" />
+</menu>

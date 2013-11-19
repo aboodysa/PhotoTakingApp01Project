@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:scrollbars="vertical">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:text="@string/dateOfBirthTextView"
+			android:id="@+id/dateOfBirthTextView"
+			android:layout_weight="1" />
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/displayNameEditText"
+			android:hint="@string/displayNameEditTextHint"/>
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/emailEditText"
+			android:hint="@string/emailEditTextHint"/>
+		<CheckBox
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/enabledCheckBox"
+			android:id="@+id/enabledCheckBox" />
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/firstNameEditText"
+			android:hint="@string/firstNameEditTextHint"/>
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/idEditText"
+			android:hint="@string/employeeIdEditTextHint"/>
+		<Spinner
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/jobTitleIdSpinner" />
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/lastNameEditText"
+			android:hint="@string/lastNameEditTextHint"/>
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/mobileEditText"
+			android:hint="@string/mobileEditTextHint"/>
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/secondNameEditText"
+			android:hint="@string/secondNameEditTextHint"/>
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/thirdNameEditText"
+			android:hint="@string/thirdNameEditTextHint"/>
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/userNameEditText"
+			android:hint="@string/userNameEditTextHint"/>
+	</LinearLayout>
+</ScrollView>

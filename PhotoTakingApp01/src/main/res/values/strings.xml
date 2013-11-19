@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoTakingApp01</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="listEditTextHint">type list name</string>
+    <string name="button">Click here!</string>
+    <string name="resultTextView">Result here...</string>
+    <string name="addButton">Add</string>
+    <string name="urlEditText">Please Enter Url here!</string>
+    <string name="checkButton">check auth!</string>
+    <string name="loadImageButton">load</string>
+    <string name="deletedCheckBox">Deleted!</string>
+    <string name="actionTypeIdEditTextHint">action type id</string>
+    <string name="commentBodyEditTextHint">comment body</string>
+    <string name="commentTitleEditTextHint">comment title</string>
+    <string name="employeeIdEditTextHint">employee id</string>
+    <string name="commentIdEditTextHint">comment id</string>
+    <string name="taskIdEditTextHint">task id</string>
+    <string name="taskTeamIdEditTextHint">task team id</string>
+    <string name="taskEvaluationEmployeeIdEditTextHint">task evaluation employee id</string>
+    <string name="gradeEditTextHint">grade</string>
+    <string name="taskEvaluationIdEditTextHint">task evaluation id</string>
+    <string name="remarksEditTextHint">remarks</string>
+    <string name="taskEvaluationTaskIdEditTextHint">task evaluation task id</string>
+    <string name="barCodeEditTextHint">bar code</string>
+    <string name="creatorIdEditTextHint">creator id</string>
+    <string name="descriptionEditTextHint">description</string>
+    <string name="initialEstimatedHoursEditTextHint">initial estimated hours</string>
+    <string name="taskCoordinatorEditTextHint">task coordinator</string>
+    <string name="timeInHoursEditTextHint">time in hours</string>
+    <string name="urgencyIdEditTextHint">urgency id</string>
+    <string name="dateOfBirthTextView">date of birth</string>
+    <string name="displayNameEditTextHint">display name</string>
+    <string name="emailEditTextHint">email</string>
+    <string name="enabledCheckBox">enabled</string>
+    <string name="firstNameEditTextHint">first name</string>
+    <string name="lastNameEditTextHint">last name</string>
+    <string name="mobileEditTextHint">mobile</string>
+    <string name="secondNameEditTextHint">second name</string>
+    <string name="thirdNameEditTextHint">third name</string>
+    <string name="userNameEditTextHint">user name</string>
+    <string name="estimatedHoursEditTextHint">estimated hours</string>
+    <string name="taskTeamTimeInHoursEditTextHint">task team time in hours</string>
+    <string name="commentActionTypeIdEditTextHint">comment action type id</string>
+    <string name="commentCommentBodyEditTextHint">comment comment body</string>
+    <string name="commentCommentTitleEditTextHint">comment comment title</string>
+    <string name="taskEvaluationGradeEditTextHint">task evaluation grade</string>
+    <string name="taskEvaluationRemarksEditTextHint">task evaluation remarks</string>
+    <string name="taskBarCodeEditTextHint">task bar code</string>
+    <string name="taskCreatorIdEditTextHint">task creator id</string>
+    <string name="taskDescriptionEditTextHint">task description</string>
+    <string name="taskInitialEstimatedHoursEditTextHint">task initial estimated hours</string>
+    <string name="taskTaskCoordinatorEditTextHint">task task coordinator</string>
+    <string name="taskTimeInHoursEditTextHint">task time in hours</string>
+    <string name="employeeDisplayNameEditTextHint">employee display name</string>
+    <string name="employeeEmailEditTextHint">employee email</string>
+    <string name="employeeFirstNameEditTextHint">employee first name</string>
+    <string name="employeeLastNameEditTextHint">employee last name</string>
+    <string name="employeeMobileEditTextHint">employee mobile</string>
+    <string name="employeeSecondNameEditTextHint">employee second name</string>
+    <string name="employeeThirdNameEditTextHint">employee third name</string>
+    <string name="employeeUserNameEditTextHint">employee user name</string>
+    <string name="taskTeamEstimatedHoursEditTextHint">task team estimated hours</string>
+
+    <array name="spinnerChoices">
+        <item>login</item>
+        <item>logout</item>
+        <item>test</item>
+        <item>fail</item>
+    </array>
+
+    <string name="title_activity_employee_list">Emplyee List</string>
+    <string name="employeeList">employees</string>
+    <string name="taskRoleIdEditTextHint">task roles</string>
+    <string name="jobTitleIdEditTextHint">hint</string>
+    <string name="statusIdEditTextHint">stats id</string>
+    <string name="importanceIdEditTextHint">hint</string>
+    <string name="taskList">tasks</string>
+    <string name="title_activity_task_list">Tasks</string>
+    <string name="open">Open</string>
+    <string name="remove">Remove!</string>
+    <string name="employeeActivity">Employee Information</string>
+
+</resources>
